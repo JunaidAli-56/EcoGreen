@@ -5,6 +5,7 @@ import Main from "../components/Main";
 import Services from "../components/Services";
 import { Campaigns } from "../components/Campaigns";
 import EventSection from "../components/EventSection";
+import TeamSection from "../components/TeamSection";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Services />
       <Campaigns />
       <EventSection />
+      <TeamSection />
       <Footer />
     </>
   )
