@@ -14,7 +14,7 @@ export const Campaigns = () => {
                         <div className="row">
                             <CampaignsCard
                                 index={1}
-                                image='/assets/gallery-1.webp'
+                                image='/assets/image-3.webp'
                                 title='ECOLOGY'
                                 subTitle='Ecological Friendly'
                                 description='Far from the countries Vokalia and Consonantia.'
@@ -23,7 +23,7 @@ export const Campaigns = () => {
                             />
                             <CampaignsCard
                                 index={2}
-                                image='/assets/gallery-1.webp'
+                                image='/assets/bg-1.webp'
                                 title='PLANTING'
                                 subTitle='Planting Trees'
                                 description='Far from the countries Vokalia and Consonantia.'
@@ -32,7 +32,7 @@ export const Campaigns = () => {
                             />
                             <CampaignsCard
                                 index={3}
-                                image='/assets/gallery-1.webp'
+                                image='/assets/gallery-3.webp'
                                 title='WATER'
                                 subTitle='Water Pollution'
                                 description='Far from the countries Vokalia and Consonantia.'
@@ -41,7 +41,7 @@ export const Campaigns = () => {
                             />
                             <CampaignsCard
                                 index={4}
-                                image='/assets/gallery-1.webp'
+                                image='/assets/gallery-4.webp'
                                 title='ECOLOGY'
                                 subTitle='Planting More Trees'
                                 description='Far from the countries Vokalia and Consonantia.'

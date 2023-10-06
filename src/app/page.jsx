@@ -6,6 +6,9 @@ import Services from "../components/Services";
 import { Campaigns } from "../components/Campaigns";
 import EventSection from "../components/EventSection";
 import TeamSection from "../components/TeamSection";
+import About from "../components/About";
+import Blogs from "../components/Blogs";
+import SubscribeBox from "../components/SubscribeBox";
 
 
 export default function Home() {
@@ -19,6 +22,9 @@ export default function Home() {
       <Campaigns />
       <EventSection />
       <TeamSection />
+      <About />
+      <Blogs />
+      <SubscribeBox />
       <Footer />
     </>
   )
