@@ -1,22 +1,24 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BiLogoFacebook, BiLogoGoogle } from 'react-icons/bi'
+import { BiLogoFacebook, BiLogoGoogle, BiLogoFacebookCircle } from 'react-icons/bi'
 import { AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai'
+import { FaFacebookSquare } from 'react-icons/fa'
+
 const TeamCard = ({ image, title, description }) => {
     return (
-        <div class="col team-col col-sm-12 col-md-6 col-lg-3">
-            <div class="card team-card">
+        <div class="col team-col col-sm-12 col-md-6 col-lg-3 my-3">
+            <div class="card team-card p-0 border-0">
                 <div class="card-body team-card-body p-2">
                     <div class="team-card-head">
                         <Image src={image} alt='image' height={200} width={200} />
                     </div>
                     <div class="team-card-bottom">
-                        <h4>{title}</h4>
-                        <h6>VOLUNTEER</h6>
-                        <div class="team-icon">
+                        <h5>{title}</h5>
+                        <h6 className='my-3'>VOLUNTEER</h6>
+                        <div class="team-icon d-flex justify-content-evenly align-items-center">
                             <Link href='/'>
-                                <BiLogoFacebook size={30} />
+                                <BiLogoFacebookCircle size={30} />
                             </Link>
                             <Link href='/'>
                                 <AiOutlineTwitter size={30} />
@@ -28,7 +30,7 @@ const TeamCard = ({ image, title, description }) => {
                                 <BiLogoGoogle size={30} />
                             </Link>
                         </div>
-                        <p>{description}</p>
+                        <p className='mt-3'>{description}</p>
                     </div>
                 </div>
             </div>
