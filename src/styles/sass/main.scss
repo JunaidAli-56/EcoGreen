@@ -302,42 +302,43 @@ $lightGray: #9e9e9e;
 
 
 // SubsricbeBox
-.content-box {
-    color: $light;
-    font-weight: bold;
-}
+.subscribe-conatiner {
+    .content-box {
+        color: $light;
+        font-weight: bold;
+    }
 
-.button-box {
-    /* border:  2px solid red; */
-    position: relative;
-}
+    .button-box {
+        position: relative;
 
-.button-box .leaf {
-    /* border:  2px solid red; */
-    top: -26px;
-    right: -25px;
-    position: absolute;
-    font-size: 25px;
-    color: #FFF;
-    visibility: hidden;
-}
+        .leaf {
+            top: -26px;
+            right: -25px;
+            position: absolute;
+            font-size: 25px;
+            color: $light;
+            visibility: hidden;
+        }
 
-.button-box button {
-    padding: 15px 50px;
-    font-size: 16px;
-    font-weight: bold;
-    border: 0;
-    color: $primary;
-    background: $light;
-}
+        .button {
+            padding: 15px 50px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 0;
+            color: $primary;
+            background: $light;
+        }
 
-.button-box button:hover {
-    background-color: $primary;
-    color: $light;
-    box-shadow: -2px -2px 20px $light;
-    border-radius: 200px 0px 200px 200px;
-}
+        .button:hover~.leaf {
+            visibility: visible !important;
+        }
 
-.button:hover~.leaf {
-    visibility: visible !important;
+        :hover {
+            background-color: $primary;
+            color: $light;
+            box-shadow: -2px -2px 20px $light;
+            border-radius: 200px 0px 200px 200px;
+        }
+
+    }
 }

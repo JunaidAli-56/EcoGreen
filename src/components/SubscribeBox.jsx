@@ -3,7 +3,7 @@ import { FaLeaf } from 'react-icons/fa'
 
 const SubscribeBox = () => {
     return (
-        <div className="container bg-primary py-5">
+        <div className="container bg-primary py-5 subscribe-conatiner">
             <div className="row d-flex justify-content-between align-items-center px-5">
                 <div className="col-8 content-box">
                     <p>NEWSLETTER</p>
