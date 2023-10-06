@@ -307,12 +307,12 @@ $lightGray: #9e9e9e;
     font-weight: bold;
 }
 
-.last-div-button {
+.button-box {
     /* border:  2px solid red; */
     position: relative;
 }
 
-.last-div-button .leaf {
+.button-box .leaf {
     /* border:  2px solid red; */
     top: -26px;
     right: -25px;
@@ -322,7 +322,7 @@ $lightGray: #9e9e9e;
     visibility: hidden;
 }
 
-.last-div-button button {
+.button-box button {
     padding: 15px 50px;
     font-size: 16px;
     font-weight: bold;
@@ -331,13 +331,13 @@ $lightGray: #9e9e9e;
     background: $light;
 }
 
-.last-div-button button:hover {
-    background-color: #73B925;
-    color: #FFFFFF;
-    box-shadow: -2px -2px 20px #FFFFFF;
+.button-box button:hover {
+    background-color: $primary;
+    color: $light;
+    box-shadow: -2px -2px 20px $light;
     border-radius: 200px 0px 200px 200px;
 }
 
-.call:hover~.leaf {
+.button:hover~.leaf {
     visibility: visible !important;
 }

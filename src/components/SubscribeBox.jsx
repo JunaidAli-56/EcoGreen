@@ -10,8 +10,8 @@ const SubscribeBox = () => {
                     <h1>Subscribe for Newsletter</h1>
                 </div>
                 <div className="col-4 d-flex justify-content-end">
-                    <div class="last-div-button">
-                        <button className="call">
+                    <div class="button-box">
+                        <button className="button">
                             SUBSCRIBE NOW!
                         </button>
                         <FaLeaf className='leaf' size={25} />
