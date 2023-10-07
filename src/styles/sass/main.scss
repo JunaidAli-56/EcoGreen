@@ -51,13 +51,35 @@ $lightGray: #9e9e9e;
     h2 {
         font-weight: 700;
     }
-    
+
     .heading-para {
         color: $lightGray;
         font-weight: 600;
         font-size: 14px !important;
     }
 }
+
+// Top Navbar
+.top-nav-container {
+    .top-nav-contact-container {
+        .contact-icon {
+            color: $primary;
+            margin-right: 3px;
+        }
+
+        .contact-content {
+            h6 {
+                color: $primary;
+                font-size: 12px;
+            }
+
+            p {
+                color: $lightGray;
+            }
+        }
+    }
+}
+
 
 
 .main-section {
