@@ -9,11 +9,11 @@ import { FaRegEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer>
-            <div className="container-fluid py-5 bg-dark footer-conatiner">
+        <div className="container-fluid bg-dark">
+            <div className="container py-5  footer-conatiner">
                 <div className="inner-footer-div ">
                     <div className="row">
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="card footer-social-card border-0">
                                 <p className='my-3'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                                 <div className="d-flex social-icons-box">
@@ -33,7 +33,7 @@ const Footer = () => {
 
                             </div>
                         </div>
-                        <div className="col-2">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="card card-links border-0" >
                                 <h4>Services</h4>
                                 <ul className="list-group  border-0">
@@ -45,18 +45,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-2">
-                            <div className="card card-links border-0" >
-                                <h4>Services</h4>
-                                <ul className="list-group list-group-flush border-0">
-                                    <li className="list-group-item border-0"> <Link href="#"> Save Animals</Link></li>
-                                    <li className="list-group-item border-0"> <Link href="#"> Plant Ecology</Link></li>
-                                    <li className="list-group-item border-0"> <Link href="#"> Dynamic Ecology</Link></li>
-                                    <li className="list-group-item border-0"> <Link href="#"> Tree Planting</Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-2">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="card card-links border-0" >
                                 <h4>Recent Post</h4>
                                 <ul className="list-group list-group-flush border-0">
@@ -70,7 +59,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="card card-links border-0" >
                                 <h4>Have a Questions?</h4>
                                 <ul className="list-group list-group-flush border-0">
@@ -97,7 +86,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <hr className='text-primary' />
-                        <div className="contanier copyright-container mt-4 d-flex justify-content-between">
+                        <div className="contanier copyright-container mt-4 d-flex justify-content-between align-items-center">
                             <h6>Copyright © Your Website 2022</h6>
                             <div>
                                 <Link href="#">Privacy Policy</Link> . <Link href="#">Terms & Conditions</Link>
@@ -106,9 +95,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
-        </footer>
-
+        </div>
     )
 }
 

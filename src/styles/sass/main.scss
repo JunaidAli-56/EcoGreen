@@ -363,11 +363,11 @@ $lightGray: #9e9e9e;
                         color: $light !important;
                         margin-right: 4px;
                     }
-
                     :hover {
                         cursor: pointer;
                         color: $primary;
                     }
+
                 }
             }
         }
@@ -390,6 +390,10 @@ $lightGray: #9e9e9e;
                         text-decoration: none;
                         color: $light;
                         font-size: 14px;
+                        &:hover {
+                            color: $primary;
+                            margin-left: 5px;
+                        }
                     }
 
                     .footer-end-col {
@@ -405,6 +409,11 @@ $lightGray: #9e9e9e;
                             text-decoration: none;
                             color: $light;
                             font-size: 14px;
+
+                            &:hover {
+                                color: $primary;
+                                margin-left: 5px;
+                            }
                         }
                     }
                 }
@@ -413,9 +422,11 @@ $lightGray: #9e9e9e;
 
         .copyright-container {
             color: $light;
-            a{
+
+            a {
                 color: $light;
-                :hover{
+
+                &:hover {
                     color: $primary;
                 }
             }
