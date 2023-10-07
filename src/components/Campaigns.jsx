@@ -12,7 +12,7 @@ export const Campaigns = () => {
 
                 />
                 <div className="col">
-                    <div className="container bg-light campaigns-card-container">
+                    <div className="container campaigns-card-container">
                         <div className="row">
                             <CampaignsCard
                                 index={1}

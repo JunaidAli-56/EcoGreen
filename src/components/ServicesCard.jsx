@@ -2,7 +2,7 @@ import React from 'react'
 const ServicesCard = ({ title, description, icon }) => {
     return (
         <div className="col-sm-12 col-md-6 col-lg-3 my-3 service-card">
-            <div class="card border-0">
+            <div class="card border-0 cards">
                 <div>
                     <div class="icon-bg">
                         {icon}

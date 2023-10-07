@@ -13,7 +13,6 @@ const EventSection = () => {
                     <Image
                         className='rounded-2'
                         src='/assets/bg-4.webp' alt='image' height={600} width={600}
-
                     />
                 </div>
                 <div className="col-12 col-lg-6 content-box py-4">

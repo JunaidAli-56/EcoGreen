@@ -6,7 +6,7 @@ import { BsFillChatFill } from 'react-icons/bs'
 import { HiLink } from 'react-icons/hi'
 const BlogsCard = ({ index, image, title, description }) => {
     return (
-        <div className="col-sm-12 col-md-6 col-lg-3 my-3 bg-white">
+        <div className="col-sm-12 col-md-6 col-lg-3 my-3">
             <div className={`card blog-card border-0 ${index % 2 === 0 ? 'flex-col-reverse' : 'flex-col'}`}>
                 <div className={`card-media d-flex justify-content-center align-items-center ${index % 2 === 0 ? 'mt-3' : 'mb-3'}`}>
                     <Image

@@ -4,7 +4,7 @@ import ParagraphHeading from './ParagraphHeading'
 
 const TeamSection = () => {
     return (
-        <div class="container">
+        <div class="container bg-light">
             <div class="row team-row">
                 <ParagraphHeading
                     subTitle='MEET OUR VOLUNTEER'

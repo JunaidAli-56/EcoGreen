@@ -4,7 +4,7 @@ import ParagraphHeading from './ParagraphHeading'
 
 const Blogs = () => {
     return (
-        <div className="container blog-container">
+        <div className="container blog-container bg-light">
             <div className="row">
                 <ParagraphHeading
                     subTitle='OUR BLOG'
