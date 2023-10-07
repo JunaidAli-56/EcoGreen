@@ -12,7 +12,7 @@ const Navbar = () => {
         <div class="navbar">
             <div class="nav-button">
                 <button class="donate-btn d-flex">
-                    <PiHandHeart size={28} className='mx-3 button'/>
+                    <PiHandHeart size={28} className='ms-3 me-2 button'/>
                     Donate Now!
                 </button>
             </div>

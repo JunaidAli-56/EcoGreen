@@ -15,21 +15,21 @@ const TopNav = () => {
                     <div className="col-lg-9 col-md-12 col-sm-12  mt-3 mt-lg-0">
                         <div className="container top-nav-contact-container">
                             <div className="row">
-                                <div className="col-lg-4 col-md-4 col-sm-4 d-flex">
+                                <div className="col-lg-4 col-md-4 col-sm-4 d-flex mb-lg-0 mb-md-0 mb-3">
                                     <FaRegEnvelope size={30} className='contact-icon' />
                                     <div className='contact-content'>
                                         <h6>Email</h6>
                                         <p>info@mail.com</p>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-4 col-sm-4 d-flex">
+                                <div className="col-lg-4 col-md-4 col-sm-4 d-flex mb-lg-0 mb-md-0 mb-3">
                                     <BsTelephoneInbound size={30} className='contact-icon' />
                                     <div className='contact-content'>
                                         <h6>Call Us </h6>
                                         <p>+2 392 3929 210</p>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-4 col-sm-4 d-flex">
+                                <div className="col-lg-4 col-md-4 col-sm-4 d-flex mb-lg-0 mb-md-0 mb-3">
                                     <FiMap size={30} className='contact-icon' />
                                     <div className='contact-content'>
                                         <h6>Email</h6>
