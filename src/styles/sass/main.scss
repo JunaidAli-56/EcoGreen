@@ -342,3 +342,83 @@ $lightGray: #9e9e9e;
 
     }
 }
+
+
+// Footer
+.footer-conatiner {
+    .inner-footer-div {
+        .footer-social-card {
+            background: none;
+
+            p {
+                color: $light;
+                font-size: 18px !important;
+            }
+
+            .social-icons-box {
+                a {
+                    text-decoration: none;
+
+                    .social-icon {
+                        color: $light !important;
+                        margin-right: 4px;
+                    }
+
+                    :hover {
+                        cursor: pointer;
+                        color: $primary;
+                    }
+                }
+            }
+        }
+
+        .card-links {
+            background: none;
+
+            h4 {
+                color: $primary;
+                font-weight: 500;
+            }
+
+            ul {
+                margin-top: 5px;
+
+                li {
+                    background: none;
+
+                    a {
+                        text-decoration: none;
+                        color: $light;
+                        font-size: 14px;
+                    }
+
+                    .footer-end-col {
+                        display: flex;
+                        flex-direction: row;
+
+                        .contact-icons {
+                            color: $primary;
+                            margin-right: 10px;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            color: $light;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .copyright-container {
+            color: $light;
+            a{
+                color: $light;
+                :hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

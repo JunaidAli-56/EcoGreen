@@ -20,10 +20,10 @@ const About = () => {
                     <p className='my-4'>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                     <div className="container my-4 donation-box">
                         <div className="row d-flex align-items-center">
-                            <div className="col-sm-2 col-md-2 col-lg-12">
+                            <div className="col-sm-12 col-md-12 col-lg-2">
                                 <MdOutlineVolunteerActivism size={80} className='icon text-primary' />
                             </div>
-                            <div className="col-sm-8 col-md-8 col-lg-12 my-2 my-lg-0">
+                            <div className="col-sm-12 col-md-8 col-lg-8 my-2 my-lg-0">
                                 <h3 className='text-primary'>$920,000</h3>
                                 <p className='my-2'>FUNDS RAISED BY 1200 PEOPLE</p>
                             </div>
