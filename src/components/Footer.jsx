@@ -6,6 +6,7 @@ import { BiLogoFacebookCircle, BiLogoGoogle } from 'react-icons/bi';
 import { FiMap } from 'react-icons/fi';
 import { BsTelephoneInbound } from 'react-icons/bs';
 import { FaRegEnvelope } from 'react-icons/fa';
+import HeadingComponent from './HeadingComponent';
 
 const Footer = () => {
     return (
@@ -15,6 +16,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <div className="card footer-social-card border-0">
+                                <HeadingComponent />
                                 <p className='my-3'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                                 <div className="d-flex social-icons-box">
                                     <Link href='/'>
