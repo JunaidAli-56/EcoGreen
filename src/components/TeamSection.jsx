@@ -1,14 +1,15 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
-import { BiLogoFacebook, BiLogoGoogle } from 'react-icons/bi'
-import { AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai'
 import TeamCard from './TeamCard'
+import ParagraphHeading from './ParagraphHeading'
 
 const TeamSection = () => {
     return (
         <div class="container">
             <div class="row team-row">
+                <ParagraphHeading
+                    subTitle='MEET OUR VOLUNTEER'
+                    title='Our Volunteer'
+                />
                 <TeamCard
                     image='/assets/staff-1.webp'
                     title='Jason Smith'

@@ -1,14 +1,16 @@
 import React from 'react'
 import CampaignsCard from './CampaignsCard'
+import ParagraphHeading from './ParagraphHeading'
 
 export const Campaigns = () => {
     return (
         <div className="container campaigns-container">
             <div className="row">
-                <div className="col-12 py-3 py-lg-5">
-                    <h6 className='text-primary text-uppercase text-center'>Projects</h6>
-                    <h1 className='text-center py-2'>Our <span className='text-primary'>Campaign</span></h1>
-                </div>
+                <ParagraphHeading
+                    subTitle='PROJECTS'
+                    title='Our Campaign'
+
+                />
                 <div className="col">
                     <div className="container bg-light campaigns-card-container">
                         <div className="row">

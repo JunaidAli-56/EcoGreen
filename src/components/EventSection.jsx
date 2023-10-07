@@ -1,15 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import { FaRecycle } from 'react-icons/fa'
-import { BiDonateHeart, BiGroup } from 'react-icons/bi'
+import { BiGroup } from 'react-icons/bi'
 import { MdOutlineVolunteerActivism } from 'react-icons/md'
 import { LiaProjectDiagramSolid } from 'react-icons/lia'
-import { GrGroup } from 'react-icons/gr'
 import EventCards from './EventCards'
 
 const EventSection = () => {
     return (
-        <div className="container event-volunteer-container">
+        <div className="container event-volunteer-container py-3 py-lg-5">
             <div className="row">
                 <div className="col-12 col-lg-6 image-box d-flex justify-content-center align-items-center">
                     <Image

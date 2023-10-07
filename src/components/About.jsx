@@ -4,7 +4,7 @@ import { MdOutlineVolunteerActivism } from 'react-icons/md'
 
 const About = () => {
     return (
-        <div className="container about-container">
+        <div className="container about-container py-3 py-lg-5">
             <div className="row">
                 <div className="col-12 col-lg-6 image-box d-flex justify-content-center align-items-center">
                     <Image
