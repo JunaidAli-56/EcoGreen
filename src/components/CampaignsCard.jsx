@@ -4,7 +4,7 @@ import Image from 'next/image'
 const CampaignsCard = ({ index, image, title, subTitle, description, raisedVal, goalVal }) => {
     return (
         <div className="col-sm-12 col-md-6 col-lg-3 my-3 ">
-            <div className={`card border-0 campaigns-card ${index % 2 === 0 ? 'flex-col-reverse' : 'flex-col'}`}>
+            <div className={`card border-0 p-3 rounded-4 campaigns-card ${index % 2 === 0 ? 'flex-col-reverse' : 'flex-col'}`}>
                 <div className={`card-media d-flex justify-content-center align-items-center ${index % 2 === 0 ? 'mt-3' : 'mb-3'}`}>
                     <Image
                         className='rounded-2'
