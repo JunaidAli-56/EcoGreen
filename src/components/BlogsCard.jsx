@@ -7,14 +7,14 @@ import { HiLink } from 'react-icons/hi'
 const BlogsCard = ({ index, image, title, description }) => {
     return (
         <div className="col-sm-12 col-md-6 col-lg-3 my-3">
-            <div className={`card blog-card border-0 ${index % 2 === 0 ? 'flex-col-reverse' : 'flex-col'}`}>
-                <div className={`card-media d-flex justify-content-center align-items-center ${index % 2 === 0 ? 'mt-3' : 'mb-3'}`}>
+            <div className={`card blog-card border-0 p-3 ${index % 2 === 0 ? 'flex-col-reverse' : 'flex-col'}`}>
+                <div className={`card-media d-flex justify-content-center align-items-center`}>
                     <Image
                         className='rounded-2'
                         src={image} alt='img' height={400} width={400}
                     />
                 </div>
-                <div className='card-body p-0 m-0 card-content'>
+                <div className='card-body p-0 m-0 mt-3 card-content'>
                     <div className='d-flex justify-content-end'>
                         <div className='link-box'>
                             <HiLink size={20} className='link-icon' />
