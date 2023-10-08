@@ -5,13 +5,13 @@ const CampaignsCard = ({ index, image, title, subTitle, description, raisedVal, 
     return (
         <div className="col-sm-12 col-md-6 col-lg-3 my-3 ">
             <div className={`card border-0 p-3 rounded-4 campaigns-card ${index % 2 === 0 ? 'flex-col-reverse' : 'flex-col'}`}>
-                <div className={`card-media d-flex justify-content-center align-items-center `}>
+                <div className={`card-media d-flex justify-content-center align-items-center`}>
                     <Image
                         className='rounded-2'
                         src={image} alt='img' height={400} width={400}
                     />
                 </div>
-                <div className='card-body p-0 m-0 card-content'>
+                <div className='card-body p-0 m-0 card-content mt-3'>
                     <h6 className='text-primary'>{title}</h6>
                     <h5 className='my-2'>{subTitle}</h5>
                     <p>{description}</p>
