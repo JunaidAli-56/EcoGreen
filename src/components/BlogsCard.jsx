@@ -7,6 +7,7 @@ import { HiLink } from 'react-icons/hi'
 const BlogsCard = ({ index, image, title, description }) => {
     return (
         <div className="col-sm-12 col-md-6 col-lg-3 my-3">
+            {/* remove the index of thos car and services card  */}
             <div className={`card blog-card border-0 p-3 ${index % 2 === 0 ? 'flex-col-reverse' : 'flex-col'}`}>
                 <div className={`card-media d-flex justify-content-center align-items-center`}>
                     <Image
