@@ -26,7 +26,7 @@ const BlogsCard = ({ index, image, title, description }) => {
                             <BiSolidUser size={16} className='text-primary me-1' />Admin
                         </Link>
                         <Link href='/' className='d-flex align-items-center me-2 top-links'>
-                            <BiSolidCalendar size={16} className='text-primary me-1' />FEB, 22, 2023
+                            <BiSolidCalendar size={16} className='text-primary me-1' />FEB. 22, 2023
                         </Link>
                         <Link href='/' className='d-flex align-items-center me-2 top-links'>
                             <BsFillChatFill size={16} className='text-primary me-1' />3 Comments
