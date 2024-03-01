@@ -17,18 +17,18 @@ const TeamSection = () => {
                         description='I am an ambitious workaholic, but apart from that, pretty simple person.'
                     />
                     <TeamCard
-                        image='/assets/staff-1.webp'
+                        image='/assets/staff-2.webp'
                         title='Jeffrey'
                         description='I am an ambitious workaholic, but apart from that, pretty simple person.'
                     />
                     <TeamCard
-                        image='/assets/staff-1.webp'
-                        title='Emma Watson'
+                        image='/assets/staff-3.webp'
+                        title='Emma Hunt'
                         description='I am an ambitious workaholic, but apart from that, pretty simple person.'
                     />
                     <TeamCard
-                        image='/assets/staff-1.webp'
-                        title='Tom Brack'
+                        image='/assets/staff-4.webp'
+                        title='Tom Wood'
                         description='I am an ambitious workaholic, but apart from that, pretty simple person.'
                     />
                 </div>
