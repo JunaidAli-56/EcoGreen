@@ -1,8 +1,9 @@
+'use client'
 import React from 'react'
 import HeadingComponent from './HeadingComponent'
 import { FiMap } from 'react-icons/fi'
 import { BsTelephoneInbound } from 'react-icons/bs'
-import { FaRegEnvelope } from 'react-icons/fa'  
+import { FaRegEnvelope } from 'react-icons/fa'
 
 const TopNav = () => {
     return (
